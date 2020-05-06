@@ -3,6 +3,7 @@
 <head>
     <meta charser="UTF-8">
     <title>Practica de git</title>  
+    <link rel="stylesheet" href="estilo/style.css">
 </head>
 <body>
     <header>
@@ -10,91 +11,99 @@
             <img src="img/logo.png" alt="Website logo" height="88px" width="133px" >
             <h1>Página para probar GIT</h1>
         </div>
-        <nav id="menu">
+        <nav id="menuheader">
             <ul>
                 <li><a href="index.html">home</a></li>
                 <li><a href="index.html">page 1</a></li>
                 <li><a href="index.html">page 2</a></li>
                 <li><a href="index.html">page 3</a></li>
             </ul>
-            <input type="text" placeholder="buscar...">
+            <input type="text" placeholder="buscar..." id="busquedaheader">
         </nav>
     </header>
     <div class="main">
         <section>
-            <main>
-                <article>
-                    <h2>Sección 1</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit facilisis cursus parturient suscipit, odio dui orci venenatis ante nostra litora nisi vestibulum magnis, varius eros accumsan est in ad pretium tempor nulla aptent. Tempus urna nostra purus nullam lacus non lobortis natoque gravida faucibus sem, coronanvirus eu nulla arcu bibendum aenean nisi habitasse cum sodales. Nibh eros penatibus nostra nisl ut litora eleifend hac et primis, diam venenatis per montes nec pharetra sed massa imperdiet senectus, pellentesque natoque auctor varius potenti dis curabitur himenaeos ornare.</p>
-                    <img src="img/coche.jpg" alt="foto de un coche" height="475px" width="600px">
-                    <p>Tempus urna nostra purus nullam lacus non lobortis natoque gravida faucibus sem, coronanvirus eu nulla arcu bibendum aenean nisi habitasse cum sodales.</p>
-                </article>
-                <article>
-                    <h2>Sección 2</h2>
-                    <p>Odio nisl parturient ridiculus imperdiet dictum eros penatibus blandit ultricies volutpat euismod, eleifend molestie libero morbi dictumst himenaeos enim tellus dignissim purus, nulla porttitor nam viverra senectus ad porta vitae luctus taciti. Tristique integer lobortis mi phasellus facilisi senectus cubilia malesuada pretium, ullamcorper ornare dapibus non sollicitudin inceptos vulputate erat.<br> Rhoncus mus dapibus cubilia conubia feugiat dictumst praesent congue montes porttitor egestas potenti posuere, fermentum inceptos vivamus fringilla tempus condimentum ultrices facilisi vitae fusce vestibulum.</p>
-                </article>
-            </main>
-            <aside>
-                <article>
-                    <h3>menú lateral</h3>
-                    <ul>
-                        <li><a href="#">Lorem</a></li>
-                        <li><a href="#">Ipsum</a></li>
-                        <li><a href="#">Dolor</a></li>
-                        <li><a href="#">Sit</a></li>
-                        <li><a href="#">Corona</a></li>
-                        <li><a href="#">Pellentesque</a></li>
-                    </ul>
-                </article>
-                <article>
-                    <h3>otro menú</h3>
-                    <ul>
-                        <li><a href="#">Sit</a></li>
-                        <li><a href="#">Lorem</a></li>
-                        <li><a href="#">Dolor</a></li>
-                        <li><a href="#">Ipsum</a></li>
-                        <li><a href="#">Corona</a></li>
-                        <li><a href="#">Pellentesque</a></li>
-                        <li><a href="#">Tempus</a></li>
-                        <li><a href="#">Tutatis</a></li>
-                    </ul>
-                </article>
-            </aside>
+            <div class="contenedor">
+                <div class="fila">
+                    <main class="ocho-col">
+                        <article>
+                            <h2>Sección 1</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit facilisis cursus parturient suscipit, odio dui orci venenatis ante nostra litora nisi vestibulum magnis, varius eros accumsan est in ad pretium tempor nulla aptent. Tempus urna nostra purus nullam lacus non lobortis natoque gravida faucibus sem, coronanvirus eu nulla arcu bibendum aenean nisi habitasse cum sodales. Nibh eros penatibus nostra nisl ut litora eleifend hac et primis, diam venenatis per montes nec pharetra sed massa imperdiet senectus, pellentesque natoque auctor varius potenti dis curabitur himenaeos ornare.</p>
+                            <img src="img/coche.jpg" alt="foto de un coche" height="475px" width="600px">
+                            <p>Tempus urna nostra purus nullam lacus non lobortis natoque gravida faucibus sem, coronanvirus eu nulla arcu bibendum aenean nisi habitasse cum sodales.</p>
+                        </article>
+                        <article>
+                            <h2>Sección 2</h2>
+                            <p>Odio nisl parturient ridiculus imperdiet dictum eros penatibus blandit ultricies volutpat euismod, eleifend molestie libero morbi dictumst himenaeos enim tellus dignissim purus, nulla porttitor nam viverra senectus ad porta vitae luctus taciti. Tristique integer lobortis mi phasellus facilisi senectus cubilia malesuada pretium, ullamcorper ornare dapibus non sollicitudin inceptos vulputate erat.<br> Rhoncus mus dapibus cubilia conubia feugiat dictumst praesent congue montes porttitor egestas potenti posuere, fermentum inceptos vivamus fringilla tempus condimentum ultrices facilisi vitae fusce vestibulum.</p>
+                        </article>
+                    </main>
+                    <aside class="cuatro-col">
+                        <article>
+                            <h3>menú lateral</h3>
+                            <ul>
+                                <li><a href="#">Lorem</a></li>
+                                <li><a href="#">Ipsum</a></li>
+                                <li><a href="#">Dolor</a></li>
+                                <li><a href="#">Sit</a></li>
+                                <li><a href="#">Corona</a></li>
+                                <li><a href="#">Pellentesque</a></li>
+                            </ul>
+                        </article>
+                        <article>
+                            <h3>otro menú</h3>
+                            <ul>
+                                <li><a href="#">Sit</a></li>
+                                <li><a href="#">Lorem</a></li>
+                                <li><a href="#">Dolor</a></li>
+                                <li><a href="#">Ipsum</a></li>
+                                <li><a href="#">Corona</a></li>
+                                <li><a href="#">Pellentesque</a></li>
+                                <li><a href="#">Tempus</a></li>
+                                <li><a href="#">Tutatis</a></li>
+                            </ul>
+                        </article>
+                    </aside>
+                </div>
+            </div>
         </section>
     </div>
     <footer>
-        <div>
-            <div>
-                <h4>Contacto</h4>
-                <ul>
-                    <li><a href="#">Correo</a></li>
-                    <li><a href="#">Teléfono</a></li>
-                    <li><a href="#">Dirección</a></li>
-                </ul>
+        <section>
+            <div class="contenedor">
+                <div class="fila">
+                    <div class="tres-col">
+                        <h4>Contacto</h4>
+                        <ul>
+                            <li><a href="#">Correo</a></li>
+                            <li><a href="#">Teléfono</a></li>
+                            <li><a href="#">Dirección</a></li>
+                        </ul>
+                    </div>
+                    <div class="tres-col">
+                        <h4>Información</h4>
+                        <ul>
+                            <li><a href="#">Sobre nosotros</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Eventos</a></li>
+                            <li><a href="#">Más información</a></li>
+                        </ul>
+                    </div>
+                    <div class="tres-col">
+                        <h4>Otros links</h4>
+                        <ul>
+                            <li><a href="#">Servicio</a></li>
+                            <li><a href="#">Soporte</a></li>
+                            <li><a href="#">Términos y condiciones</a></li>
+                            <li><a href="#">Política de provacidad</a></li>
+                        </ul>
+                    </div>
+                    <div class="tres-col">
+                        <h4>Búsqueda</h4>
+                        <input type="text" placeholder="buscar...">
+                    </div>
+                </div>
             </div>
-            <div>
-                <h4>Información</h4>
-                <ul>
-                    <li><a href="#">Sobre nosotros</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Eventos</a></li>
-                    <li><a href="#">Más información</a></li>
-                </ul>
-            </div>
-            <div>
-                <h4>Otros links</h4>
-                <ul>
-                    <li><a href="#">Servicio</a></li>
-                    <li><a href="#">Soporte</a></li>
-                    <li><a href="#">Términos y condiciones</a></li>
-                    <li><a href="#">Política de provacidad</a></li>
-                </ul>
-            </div>
-            <div>
-                <h4>Búsqueda</h4>
-                <input type="text" placeholder="buscar...">
-            </div>
-        </div>
+        </section>
         <p>2020 company ltd<br>all rights reserved</p>
     </footer>
 </body>
